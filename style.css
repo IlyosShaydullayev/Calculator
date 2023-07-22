@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.calculator{
+    background-color: whitesmoke;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin-top: 50px;
+}
+#natija{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+button:hover{
+    background-color: #ddd;
+}
+.c{
+    background-color: red;
+    color: white;
+}
+.raqam, .nuqta{
+    background-color: #fff;
+    color: #333;
+}
+.teng{
+    background-color: rgb(44, 216, 44);
+    grid-row: span 3;
+    color: white;
+}
+.operator{
+    background-color: rgb(38, 38, 242);
+    color: white;
+}
